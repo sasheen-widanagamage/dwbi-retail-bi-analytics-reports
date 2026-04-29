@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Retail_DW2_SSAS_IT23641006</Database>
+    <Server>SASHEENSRI\WIDANAGAMAGE</Server>
+    <ConnectionString>Data Source=SASHEENSRI\WIDANAGAMAGE;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>V8LU42L23o/AnJvBOguagZ57hn8=3/30/2026 12:20:11 PM3/30/2026 11:25:16 AM</TimeStamp>
+        <ID>
+          <String>DS_Retail_DW2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>t9H+OH+tIm1n+kfNJWKLPP+CDlQ=3/30/2026 11:28:52 AM3/30/2026 11:28:52 AM</TimeStamp>
+        <ID>
+          <String>DSV_Retail_DW2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>quWHDJKfJLCaPPP2xsWikjdZtWY=3/30/2026 11:42:59 AM3/30/2026 11:42:59 AM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fw/5C5jKXUkRZKcWQzfAgEPE1Qk=3/30/2026 11:49:27 AM3/30/2026 11:48:18 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KYwTUgwdFWpz2AmtZ+VXpFcrtSo=3/30/2026 11:50:45 AM3/30/2026 11:50:45 AM</TimeStamp>
+        <ID>
+          <String>Dim Order Profile</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IA5z0YQgswImFyjX47JD0gnmOPo=3/30/2026 11:53:44 AM3/30/2026 11:53:11 AM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>VN6WYzeWjlGByOPvYKBAfwTnkQo=3/30/2026 12:06:24 PM3/30/2026 11:59:10 AMNRXqC8RwYcNWgcDzIyWgHt6w/gk=3/30/2026 11:59:11 AM3/30/2026 11:59:10 AM</TimeStamp>
+        <ID>
+          <String>DSV_Retail_DW2</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>a7ETVYSxFybdNX/r7vYIg2wyiwQ=3/30/2026 11:09:45 AM3/30/2026 11:09:45 AM</TimeStamp>
+      <ID>
+        <String>Retail_DW2_SSAS_IT23641006</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-03-30T06:50:25.22Z</LastDeployed>
+</DeploymentSnapshot>
